@@ -11,7 +11,7 @@ main {
   --dark: #000000;
   --error: rgb(228, 46, 1);
   --spacing-one: calc(1rem * 0.5);
-  --spacing-two: calc(1rem);
+  --spacing-two: calc(2rem);
   --spacing-five: calc(2.5rem);
 }
 
@@ -26,6 +26,12 @@ main {
 html,
 body {
   min-height: 100%;
+  align-self: center;
+}
+
+#name {
+  font-size: 32px;
+  display: inline;
 }
 
 body {
@@ -84,6 +90,8 @@ a {
   color: var(--tertiary);
   text-decoration: none;
   font-weight: bold;
+  font-size: 16px;
+  display: inline;
 }
 
 a:hover {
@@ -151,6 +159,11 @@ li {
   list-style: none;
 }
 
+nav a {
+  text-decoration: none;
+  justify-content: space-between;
+}
+
 nav a:hover {
   text-decoration: none;
 }
@@ -176,6 +189,7 @@ textarea {
 .flex-row {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
 }
 
 .space-between {
