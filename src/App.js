@@ -1,13 +1,19 @@
 import React from "react";
 import "./App.css";
 import Header from "./components/Header";
-import Navigation from "./components/Navigation";
+import About from "./components/About";
+import Footer from "./components/Footer";
 
 function App() {
   return (
-    <Header>
-      <Navigation></Navigation>
-    </Header>
+    <div>
+      <Header></Header>
+
+      <main>
+        <About></About>
+      </main>
+      <Footer></Footer>
+    </div>
   );
 }
 
