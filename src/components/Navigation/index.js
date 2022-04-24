@@ -1,41 +1,60 @@
 import React from "react";
+import { Link } from "react-router-dom";
+import { Nav, Navbar } from "reactstrap";
 
-function Navigation() {
+function Navigation({ currentPage, handlePageChange }) {
   return (
-    <nav className="navbar">
-      <div className="container-fluid">
-        <ul id="name">
-          <li>
-            <a data-testid="link" href="/">
-              Tyler Davis
-            </a>
-          </li>
-        </ul>
-
+    <div className="navbar">
+      <div className="navbar-container container">
+        <div>
+          <a id="name" data-testid="link" href="/">
+            Tyler Davis
+          </a>
+        </div>
         <ul className="nav">
-          <li className="mx-2">
-            <a data-testid="about" href="#about">
+          <li className="nav-item">
+            <Link
+              to="/"
+              className={
+                currentPage === "About" ? "nav-link active" : "nav-link"
+              }
+            >
               About Me
-            </a>
+            </Link>
           </li>
-          <li className="mx-2">
-            <a data-testid="portfolio" href="#portfolio">
+          <li className="nav-item">
+            <Link
+              to="/portfolio"
+              className={
+                currentPage === "Portfolio" ? "nav-link active" : "nav-link"
+              }
+            >
               Portfolio
-            </a>
+            </Link>
           </li>
-          <li className="mx-2">
-            <a data-testid="contact" href="#contact">
-              Contact
-            </a>
-          </li>
-          <li className="mx-2">
-            <a data-testid="resume" href="#resume">
+          <li className="nav-item">
+            <Link
+              to="/resume"
+              className={
+                currentPage === "Resume" ? "nav-link active" : "nav-link"
+              }
+            >
               Resume
-            </a>
+            </Link>
+          </li>
+          <li className="nav-item">
+            <Link
+              to="/contact"
+              className={
+                currentPage === "Contact" ? "nav-link active" : "nav-link"
+              }
+            >
+              Contact
+            </Link>
           </li>
         </ul>
       </div>
-    </nav>
+    </div>
   );
 }
 

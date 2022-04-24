@@ -1,20 +1,38 @@
 import React from "react";
-import { BsGithub } from "react-icons/bs";
-import { AiFillLinkedin, AiFillFacebook } from "react-icons/ai";
+import { BsGithub, BsStackOverflow } from "react-icons/bs";
+import { AiFillLinkedin } from "react-icons/ai";
 
 function Footer() {
   return (
     <footer>
-      <div>
-        <ul className="icons">
+      <div className="container">
+        <ul>
           <li>
-            <BsGithub size={"36px"} />
+            <a
+              href="https://github.com/davistr/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <BsGithub size={"38px"} />
+            </a>
           </li>
           <li>
-            <AiFillLinkedin size={"36px"} />
+            <a
+              href="https://www.linkedin.com/in/tylerdavis-profile/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <AiFillLinkedin size={"38px"} />
+            </a>
           </li>
           <li>
-            <AiFillFacebook size={"36px"} />
+            <a
+              href="https://stackoverflow.com/users/17331067/tyler-davis"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <BsStackOverflow size={"38px"} />
+            </a>
           </li>
         </ul>
       </div>

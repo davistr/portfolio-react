@@ -3,9 +3,9 @@ import Navigation from "../Navigation";
 
 function Header() {
   return (
-    <header className="header">
-      <Navigation></Navigation>
-    </header>
+    <div className="header">
+      <Navigation />
+    </div>
   );
 }
 
