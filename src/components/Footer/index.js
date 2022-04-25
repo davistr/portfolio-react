@@ -5,7 +5,7 @@ import { AiFillLinkedin } from "react-icons/ai";
 function Footer() {
   return (
     <footer>
-      <div className="container">
+      <div className="footer-content">
         <ul>
           <li>
             <a
@@ -13,7 +13,7 @@ function Footer() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <BsGithub size={"38px"} />
+              <BsGithub size={"42px"} />
             </a>
           </li>
           <li>
@@ -22,7 +22,7 @@ function Footer() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <AiFillLinkedin size={"38px"} />
+              <AiFillLinkedin size={"42px"} />
             </a>
           </li>
           <li>
@@ -31,7 +31,7 @@ function Footer() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <BsStackOverflow size={"38px"} />
+              <BsStackOverflow size={"42px"} />
             </a>
           </li>
         </ul>

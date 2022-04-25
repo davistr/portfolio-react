@@ -18,8 +18,6 @@ main {
 * {
   box-sizing: border-box;
   font-family: "Righteous", cursive;
-  margin: 0;
-  padding: 0;
 }
 
 .main-bg {
@@ -59,11 +57,6 @@ main {
   text-align: center;
 }
 
-/* html,
-body {
-  height: 100%;
-} */
-
 #about {
   font-size: 36px;
   color: var(--primary);
@@ -73,50 +66,78 @@ body {
   font-size: 32px;
 }
 
+.img-div {
+  background-image: cover;
+}
+
 .about-container,
-.resume-container {
+.resume-container,
+.card-container,
+.contact-container {
   display: flex;
   padding: 30px 30px;
   border-radius: 25px;
   background-color: var(--secondary);
   color: var(--primary);
+  width: 100vw;
 }
 
 .container {
   /* min-height: 80vh; */
-  padding: 12px;
+  padding: 6px;
+  margin: 22px;
+  /* background-color: var(--primary);
+  width: 100vw; */
   /* background-image: url("./assets/images/bg.jpg");
   background-size: cover;
   background-position: center; */
 }
 
 ul li span {
-  padding-right: 2px;
+  padding-right: 6px;
+}
+
+.resume-container ul li {
+  font-size: 20px;
+  margin-bottom: 6px;
 }
 
 /*RESUME*/
-.resume-container {
-  display: flex;
-  padding: 30px 30px;
-}
 
 .resume-left {
-  display: flex;
+  /* flex: 1; */
   width: 50%;
-  border: 5px solid --primary;
   padding: 20px;
   border-radius: 25px;
+  margin-top: 22px;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+}
+
+.resume-left h1,
+.resume-right h1 {
+  text-align: center;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
 }
 
 .resume-right {
-  display: flex;
-  width: 50vw;
+  /* flex: 1; */
+  width: 40vw;
   padding: 20px;
   border-radius: 25px;
+  margin-top: 22px;
 }
 
 .resume {
   text-align: center;
+  /* flex: 1; */
+}
+
+.skills-title {
+  font-size: 38px;
+  border-bottom: solid 5px #28536b;
 }
 
 #name {
@@ -129,6 +150,16 @@ ul li span {
   background: none;
 }
 
+.contact-container h1 {
+  font-size: 46px;
+  margin-bottom: 16px;
+}
+
+form label {
+  font-size: 22px;
+  /* margin-right: 12px; */
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -136,7 +167,6 @@ body {
   line-height: 1.5;
   font-size: 18px;
   letter-spacing: 0.1em;
-  background: var(--dark);
   color: var(--light);
   display: flex;
   flex-direction: column;
@@ -195,6 +225,11 @@ p {
   background-color: var(--secondary);
 }
 
+.nav a:focus {
+  color: var(--primary);
+  background-color: var(--secondary);
+}
+
 nav {
   color: var(--light);
 }
@@ -220,6 +255,7 @@ header a {
   background-color: var(--primary);
   color: var(--light);
   padding: 12px;
+  margin-top: auto;
   text-decoration: none;
 }
 
@@ -251,6 +287,11 @@ header a {
   max-width: 100%;
 }
 
+.card-body {
+  display: flex;
+  flex-direction: column;
+}
+
 .project-card {
   width: 350px;
   height: 350px;
@@ -271,24 +312,27 @@ footer {
   left: 0;
   bottom: 0;
   right: 0;
+  text-align: center;
 }
 
 .footer-content {
   display: flex;
+  padding-top: 30px;
 }
 
 footer ul {
   justify-content: center;
-  text-align: center;
+  margin: 0 auto;
 }
 
 footer ul li {
-  display: inline-block;
+  display: inline;
 }
 
 footer ul li a {
   text-decoration: none;
   color: var(--light);
+  margin: 12px;
 }
 
 footer ul li a:hover {
@@ -297,15 +341,11 @@ footer ul li a:hover {
 }
 
 img {
-  max-width: 50%;
-}
-
-span[role="img"] {
-  cursor: default;
+  max-width: 55%;
 }
 
 form {
-  width: 40%;
+  width: 30%;
 }
 
 input {
@@ -327,10 +367,15 @@ li {
 }
 
 textarea {
-  width: 600px;
-  height: 120px;
-  border: 3px solid #cccccc;
+  width: 500px;
+  height: 125px;
+  border: 3px solid var(--primary);
   padding: 5px;
+  margin-bottom: 16px;
+}
+
+input {
+  border: 3px solid var(--primary);
 }
 
 .container {
@@ -410,6 +455,10 @@ button {
   font-weight: 600;
   margin-bottom: 30px;
   padding: 10px 15px;
+}
+
+form button {
+  margin-top: 22px;
 }
 
 .navActive {

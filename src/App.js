@@ -8,30 +8,8 @@ import Navigation from "./components/Navigation";
 import Portfolio from "./components/Portfolio";
 import Project from "./components/Project";
 import Resume from "./components/Resume";
-import { Bar } from "react-chartjs-2";
 
 function App() {
-  const data = {
-    labels: [
-      "Sunday",
-      "Monday",
-      "Tuesday",
-      "Wednesday",
-      "Thursday",
-      "Friday",
-      "Saturday",
-    ],
-    datasets: [
-      {
-        label: "Hours Studied in Geeksforgeeks",
-        data: [2, 5, 7, 9, 7, 6, 4],
-        fill: true,
-        backgroundColor: "rgba(6, 156,51, .3)",
-        borderColor: "#02b844",
-      },
-    ],
-  };
-
   return (
     <Router>
       <div>
