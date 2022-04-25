@@ -135,9 +135,19 @@ ul li span {
   /* flex: 1; */
 }
 
+.resume h1 {
+  font-size: 36px;
+}
+
+.resume a {
+  text-decoration: none;
+  color: var(--primary);
+  font-weight: bolder;
+}
+
 .skills-title {
   font-size: 38px;
-  border-bottom: solid 5px #28536b;
+  border-bottom: solid 5px var(--primary);
 }
 
 #name {

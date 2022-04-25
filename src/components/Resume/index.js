@@ -17,7 +17,14 @@ function Resume() {
   return (
     <section className="resume-container">
       <div className="resume">
-        <h1>Download my resume!</h1>
+        {/* <h1>
+          Download my{" "}
+          <span>
+            <a href="" download>
+              resume!
+            </a>
+          </span>
+        </h1> */}
       </div>
       <div className="resume-left">
         <div>
