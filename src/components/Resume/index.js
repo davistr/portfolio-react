@@ -17,14 +17,17 @@ function Resume() {
   return (
     <section className="resume-container">
       <div className="resume">
-        {/* <h1>
-          Download my{" "}
+        <h1>
+          Download my {}
           <span>
-            <a href="" download>
+            <a
+              href="https://docs.google.com/document/d/1SS5qAqQkdYzhFFRp-e8u3jJSk1lQeqHM0aony0fHdrA/edit?usp=sharing"
+              download
+            >
               resume!
             </a>
           </span>
-        </h1> */}
+        </h1>
       </div>
       <div className="resume-left">
         <div>
