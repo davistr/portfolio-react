@@ -7,9 +7,11 @@ function Navigation({ currentPage, handlePageChange }) {
     <div className="navbar">
       <div className="navbar-container container">
         <div>
-          <a id="name" data-testid="link" href="/">
-            Tyler Davis
-          </a>
+          {/* <a id="name" data-testid="link" href="/"> */}
+          <h1>
+            <Link to="/">Tyler Davis</Link>
+          </h1>
+          {/* </a> */}
         </div>
         <ul className="nav">
           <li className="nav-item">
