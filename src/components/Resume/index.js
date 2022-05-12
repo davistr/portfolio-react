@@ -20,10 +20,7 @@ function Resume() {
         <h1>
           Download my {}
           <span>
-            <a
-              href="https://docs.google.com/document/d/1SS5qAqQkdYzhFFRp-e8u3jJSk1lQeqHM0aony0fHdrA/edit?usp=sharing"
-              download
-            >
+            <a href="../../../public/Resume_DavisT.docx.pdf" download>
               resume!
             </a>
           </span>

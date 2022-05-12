@@ -9,7 +9,16 @@ function Navigation({ currentPage, handlePageChange }) {
         <div>
           {/* <a id="name" data-testid="link" href="/"> */}
           <h1>
-            <Link to="/">Tyler Davis</Link>
+            <Link
+              to="/"
+              style={{
+                textDecoration: "none",
+                color: "white",
+                margin: 26,
+              }}
+            >
+              Tyler Davis
+            </Link>
           </h1>
           {/* </a> */}
         </div>

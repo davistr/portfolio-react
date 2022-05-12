@@ -6,6 +6,7 @@ import techBlog from "../../assets/images/tech_blog.jpg";
 import workdayScheduler from "../../assets/images/workday_scheduler.jpg";
 import noteTaker from "../../assets/images/note_taker.jpg";
 import budgetTracker from "../../assets/images/budget_tracker.jpg";
+import tableTop from "../../assets/images/tabletop_game_finder.jpg";
 import { AiFillHtml5 } from "react-icons/ai";
 import {
   DiCss3,
@@ -21,6 +22,35 @@ import { SiExpress, SiBulma, SiHandlebarsdotjs } from "react-icons/si";
 function Project() {
   return (
     <div className="card-container container-fluid">
+      <div className="project-card card text-center">
+        <div>
+          <img
+            src={tableTop}
+            alt=""
+            className="card-img"
+            style={{ width: "400px" }}
+          />
+        </div>
+        <div className="card-body">
+          <h5 className="card-title">Table-Top Game Finder</h5>
+          <div>
+            <DiMongodb size={"26px"} />
+            <SiExpress size={"26px"} />
+            <DiReact size={"26px"} />
+            <DiNodejs size={"26px"} />
+            <DiCss3 size={"26px"} />
+            <DiJavascript1 size={"26px"} />
+          </div>
+          <a
+            href="https://github.com/WBrooks28/tabletop-group-finder"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="portfolio-btn"
+          >
+            View GitHub Repo
+          </a>
+        </div>
+      </div>
       <div className="card project-card text-center">
         <div className="img-div">
           <img src={handlebars} alt="" className="card-img" />
