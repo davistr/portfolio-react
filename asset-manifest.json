@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio-react/static/css/main.ff8d8488.css",
-    "main.js": "/portfolio-react/static/js/main.7bb4db7e.js",
+    "main.js": "/portfolio-react/static/js/main.18e36221.js",
     "static/media/about_me.jpg": "/portfolio-react/static/media/about_me.5d8f6800c7960e3d6bd1.jpg",
     "static/media/tabletop_game_finder.jpg": "/portfolio-react/static/media/tabletop_game_finder.5401ebdfb67206fb4fbb.jpg",
     "static/media/active-preps.jpg": "/portfolio-react/static/media/active-preps.b2855579a7f0187d279a.jpg",
@@ -12,10 +12,10 @@
     "static/media/note_taker.jpg": "/portfolio-react/static/media/note_taker.0c19e3305cf0cb1ef33e.jpg",
     "index.html": "/portfolio-react/index.html",
     "main.ff8d8488.css.map": "/portfolio-react/static/css/main.ff8d8488.css.map",
-    "main.7bb4db7e.js.map": "/portfolio-react/static/js/main.7bb4db7e.js.map"
+    "main.18e36221.js.map": "/portfolio-react/static/js/main.18e36221.js.map"
   },
   "entrypoints": [
     "static/css/main.ff8d8488.css",
-    "static/js/main.7bb4db7e.js"
+    "static/js/main.18e36221.js"
   ]
 }
