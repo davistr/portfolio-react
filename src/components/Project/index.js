@@ -24,12 +24,18 @@ function Project() {
     <div className="card-container container-fluid">
       <div className="project-card card text-center">
         <div>
-          <img
-            src={tableTop}
-            alt=""
-            className="card-img"
-            style={{ width: "400px" }}
-          />
+          <a
+            href="https://young-cove-50346.herokuapp.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              src={tableTop}
+              alt=""
+              className="card-img"
+              style={{ width: "400px" }}
+            />
+          </a>
         </div>
         <div className="card-body">
           <h5 className="card-title">Table-Top Game Finder</h5>
@@ -52,8 +58,14 @@ function Project() {
         </div>
       </div>
       <div className="card project-card text-center">
-        <div className="img-div">
-          <img src={handlebars} alt="" className="card-img" />
+        <div>
+          <a
+            href="https://handle-events.herokuapp.com"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img src={handlebars} alt="" className="card-img" />
+          </a>
         </div>
         <div className="card-body">
           <h5 className="card-title">Raising the Handelbars</h5>
@@ -77,12 +89,18 @@ function Project() {
       </div>
       <div className="project-card card text-center">
         <div>
-          <img
-            src={activePreps}
-            alt=""
-            className="card-img"
-            style={{ width: "400px" }}
-          />
+          <a
+            href="https://davistr.github.io/active-preps/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              src={activePreps}
+              alt=""
+              className="card-img"
+              style={{ width: "400px" }}
+            />
+          </a>
         </div>
         <div className="card-body">
           <h5 className="card-title">Active Preps</h5>
@@ -103,7 +121,15 @@ function Project() {
         </div>
       </div>
       <div className="project-card card text-center">
-        <img src={techBlog} alt="" className="card-img" />
+        <div>
+          <a
+            href="https://secret-refuge-26399.herokuapp.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img src={techBlog} alt="" className="card-img" />
+          </a>
+        </div>
         <div className="card-body">
           <h5 className="card-title">The Tech Blog</h5>
           <div>
@@ -124,7 +150,15 @@ function Project() {
         </div>
       </div>
       <div className="project-card card text-center">
-        <img src={workdayScheduler} alt="" className="card-img" />
+        <div>
+          <a
+            href="https://davistr.github.io/workday-scheduler/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img src={workdayScheduler} alt="" className="card-img" />
+          </a>
+        </div>
         <div className="card-body">
           <h5 className="card-title">Workday Scheduler</h5>
           <div>
@@ -143,12 +177,20 @@ function Project() {
         </div>
       </div>
       <div className="project-card card text-center">
-        <img
-          src={noteTaker}
-          alt=""
-          className="card-img"
-          style={{ height: "175px" }}
-        />
+        <div>
+          <a
+            href="https://shielded-cove-09244.herokuapp.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              src={noteTaker}
+              alt=""
+              className="card-img"
+              style={{ height: "175px" }}
+            />
+          </a>
+        </div>
         <div className="card-body">
           <h5 className="card-title">Note Taker</h5>
           <div>
@@ -169,12 +211,20 @@ function Project() {
         </div>
       </div>
       <div className="project-card card text-center">
-        <img
-          src={budgetTracker}
-          alt=""
-          className="card-img"
-          style={{ height: "175px" }}
-        />
+        <div>
+          <a
+            href="https://sleepy-badlands-07451.herokuapp.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              src={budgetTracker}
+              alt=""
+              className="card-img"
+              style={{ height: "175px" }}
+            />
+          </a>
+        </div>
         <div className="card-body">
           <h5 className="card-title">Budget Tracker (PWA)</h5>
           <div>

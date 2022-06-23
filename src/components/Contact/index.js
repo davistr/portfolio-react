@@ -47,6 +47,8 @@ function ContactForm() {
               Feel free to contact me and find me at my social media links
               listed below!
             </p>
+            <p>Phone: (434) 294-4342</p>
+            <p>Email: davistr1216@gmail.com</p>
           </div>
         </div>
         <div className="col">
