@@ -22,48 +22,50 @@ function Navigation({ currentPage, handlePageChange }) {
           </h1>
           {/* </a> */}
         </div>
-        <ul className="nav">
-          <li className="nav-item">
-            <Link
-              to="/"
-              className={
-                currentPage === "About" ? "nav-link active" : "nav-link"
-              }
-            >
-              About Me
-            </Link>
-          </li>
-          <li className="nav-item">
-            <Link
-              to="/portfolio"
-              className={
-                currentPage === "Portfolio" ? "nav-link active" : "nav-link"
-              }
-            >
-              Portfolio
-            </Link>
-          </li>
-          <li className="nav-item">
-            <Link
-              to="/resume"
-              className={
-                currentPage === "Resume" ? "nav-link active" : "nav-link"
-              }
-            >
-              Resume
-            </Link>
-          </li>
-          <li className="nav-item">
-            <Link
-              to="/contact"
-              className={
-                currentPage === "Contact" ? "nav-link active" : "nav-link"
-              }
-            >
-              Contact
-            </Link>
-          </li>
-        </ul>
+        <div className="nav-items">
+          <ul className="nav">
+            <li className="nav-item">
+              <Link
+                to="/"
+                className={
+                  currentPage === "About" ? "nav-link active" : "nav-link"
+                }
+              >
+                About Me
+              </Link>
+            </li>
+            <li className="nav-item">
+              <Link
+                to="/portfolio"
+                className={
+                  currentPage === "Portfolio" ? "nav-link active" : "nav-link"
+                }
+              >
+                Portfolio
+              </Link>
+            </li>
+            <li className="nav-item">
+              <Link
+                to="/resume"
+                className={
+                  currentPage === "Resume" ? "nav-link active" : "nav-link"
+                }
+              >
+                Resume
+              </Link>
+            </li>
+            <li className="nav-item">
+              <Link
+                to="/contact"
+                className={
+                  currentPage === "Contact" ? "nav-link active" : "nav-link"
+                }
+              >
+                Contact
+              </Link>
+            </li>
+          </ul>
+        </div>
       </div>
     </div>
   );

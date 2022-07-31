@@ -12,19 +12,17 @@ import Resume from "./components/Resume";
 function App() {
   return (
     <Router basename="/portfolio-react">
-      <div>
-        <Header />
-        <div className="container">
-          <Switch>
-            <Route exact path="/" component={About} />
-            <Route exact path="/about" component={About} />
-            <Route exact path="/portfolio" component={Portfolio} />
-            <Route exact path="/resume" component={Resume} />
-            <Route exact path="/contact" component={ContactForm} />
-          </Switch>
-        </div>
-        <Footer />
+      <Header />
+      <div className="container">
+        <Switch>
+          <Route exact path="/" component={About} />
+          <Route exact path="/about" component={About} />
+          <Route exact path="/portfolio" component={Portfolio} />
+          <Route exact path="/resume" component={Resume} />
+          <Route exact path="/contact" component={ContactForm} />
+        </Switch>
       </div>
+      <Footer />
     </Router>
   );
 }

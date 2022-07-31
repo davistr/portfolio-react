@@ -244,6 +244,16 @@ nav {
   color: var(--light);
 }
 
+.nav-items {
+  justify-content: flex-end;
+  padding: 16px;
+}
+
+.navbar {
+  padding: 12px;
+  align-items: center;
+}
+
 a {
   text-decoration: none;
 }
@@ -251,6 +261,7 @@ a {
 .header {
   background: var(--primary);
   height: 100px;
+  align-items: center;
   /* display: flex; */
 }
 
